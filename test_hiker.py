@@ -16,3 +16,12 @@ def test_2_to_II():
     
 def test_4_to_IV():
     assert to_roman(4) == "IV"
+
+def test_5_to_V():
+    assert to_roman(5) == "V"
+
+def test_9_to_IX():
+    assert to_roman(9) == "IX"
+
+def test_10_to_X():
+    assert to_roman(10) == "X"
