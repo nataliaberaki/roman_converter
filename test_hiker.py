@@ -1,4 +1,11 @@
+
+import pytest
 from hiker import to_roman
+
+#tests if the number is positive
+def test_zero_raises_error():
+    with pytest.raises(ValueError):
+        to_roman(0)
 
 #simple tests
 def test_1_to_I():
