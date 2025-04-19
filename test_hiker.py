@@ -31,3 +31,16 @@ def test_9_to_IX():
 
 def test_10_to_X():
     assert to_roman(10) == "X"
+
+#complex cases
+def test_1990_to_MCMXC():
+    assert to_roman(1990) == "MCMXC"
+
+def test_2023_to_MMXXIII():
+    assert to_roman(2023) == "MMXXIII"
+
+def test_3999_to_MMMCMXCIX():
+    assert to_roman(3999) == "MMMCMXCIX"     
+
+def test_1987_to_MCMLXXXVII():
+    assert to_roman(1987) == "MCMLXXXVII"
