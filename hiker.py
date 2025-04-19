@@ -2,6 +2,8 @@ def to_roman(number):
     if number < 1:
         raise ValueError("Input must be a positive integer")
         #does not allow negative numbers
+    if number > 3999:
+        raise ValueError("Input must be less than 4000") #roman numerals does not exceed 3999
     
     #conversion table from integer value to roman numeral symbol
     roman_numerals = [
